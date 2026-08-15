@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the software archive and the associated article."
-title: "PiTEA: Physics-Informed Techno-Economic Analysis of Hydrogen Pipeline Transmission and Buffer Provision"
+title: "PiTEA: A Techno-Economic Modeling Framework for Hydrogen Pipeline Systems"
 type: software
 version: 1.0.0
 authors:
