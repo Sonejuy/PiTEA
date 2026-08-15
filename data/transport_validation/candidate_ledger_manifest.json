@@ -1,0 +1,52 @@
+{
+  "preparation": "Exact configuration filter followed by lossless column projection",
+  "pitea": {
+    "source_dataset_sha256": "8acf0ac4e77caf8702acfdebd50b0a2a391de93e8fc91e5b3bfc374802685787",
+    "rows": 10088,
+    "fields": [
+      "case_id",
+      "length_mi",
+      "capacity_mt_per_year",
+      "capacity_factor",
+      "pitea_nominal_and_internal_diameter_in",
+      "station_count_enroute",
+      "feasible",
+      "selected",
+      "capex_pipeline_subtotal_2011_usd",
+      "capex_compressor_2011_usd",
+      "annual_pipeline_om_2023_usd",
+      "annual_compressor_fixed_2023_usd",
+      "annual_electricity_2023_usd",
+      "annual_total_opex_2023_usd"
+    ],
+    "output": "pitea_candidates.csv",
+    "output_sha256": "13e59f56aab620196b0ee230cc3fd41e417c11c2f8351593edc821d68be23096"
+  },
+  "h2p_reconstructed": {
+    "source_dataset_sha256": "461fbbb9127886c440dc543bb4b368dad3317aa541ee6934543181b7cb1837e0",
+    "rows": 576,
+    "fields": [
+      "case_id",
+      "capacity_factor",
+      "length_mi",
+      "capacity_mt_per_year",
+      "nominal_diameter_in",
+      "station_count",
+      "pipeline_material_2011_usd",
+      "pipeline_labor_2011_usd",
+      "pipeline_row_2011_usd",
+      "pipeline_misc_2011_usd",
+      "compressor_capex_2011_usd",
+      "control_and_surge_capex_2011_usd",
+      "total_capex_2023_usd",
+      "annual_pipeline_om_2023_usd",
+      "annual_station_and_control_om_2023_usd",
+      "annual_electricity_2023_usd",
+      "break_even_first_project_year_2023_usd_per_t",
+      "selected",
+      "evaluated_by_h2p_macro"
+    ],
+    "output": "h2p_reconstructed_candidates.csv",
+    "output_sha256": "5e09f5f626c1272f228a9e9be924688ee5c3d4189ec360103365d897e40cbe36"
+  }
+}

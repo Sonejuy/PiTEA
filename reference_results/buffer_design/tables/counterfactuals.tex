@@ -1,0 +1,18 @@
+\begin{table*}[!t]
+\centering
+\caption{Three ways to supply the same buffer in the focal $L=1200$ km, $H_{\mathrm{buf}}=72$ h, external-storage cost of 600 USD/kg-capacity. Every row supplies the same 4109.6 t buffer.}
+\label{tab:buffer_design_counterfactuals}
+\small
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{lccccccc}
+\toprule
+Strategy & Design $(D,n)$ & Enroute rating & $q$ & Linepack & External & LCOT \\
+ &  & (MW/unit) & (bar(a)) & (t) & storage (t) & (2023 USD/kg) \\
+\midrule
+External storage only & 30 in., 0 & -- & -- & 0.0 & 4109.6 & 0.8325 \\
+Linepack, no redesign & 30 in., 0 & -- & 21.01 & 524.1 & 3585.5 & 0.7696 \\
+Joint design & 42 in., 4 & 1.84 & 21.28 & 4109.6 & 0.0 & 0.4734 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.96\textwidth}\footnotesize The no-redesign case freezes the transport-selected diameter, station count, stages, and ratings and preserves the common 15\% equipment sizing margin. The joint optimum is locally flat in station count; nearby alternatives are $n=3$ (+0.000066 USD/kg); $n=5$ (+0.001049 USD/kg).\end{minipage}
+\end{table*}

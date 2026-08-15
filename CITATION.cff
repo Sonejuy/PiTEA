@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the software archive and the associated article."
+title: "PiTEA: Physics-Informed Techno-Economic Analysis of Hydrogen Pipeline Transmission and Buffer Provision"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Chen
+    given-names: Pengfei
+    affiliation: Georgia Institute of Technology
+  - family-names: Thomas
+    given-names: Valerie M.
+    affiliation: Georgia Institute of Technology
+license: MIT
+keywords:
+  - hydrogen pipeline
+  - techno-economic analysis
+  - linepack
+  - compression
+  - external storage
+  - reproducibility

@@ -1,0 +1,278 @@
+{
+  "study_basis": {
+    "annual_delivered_kg": 500000000.0,
+    "capacity_factor": 0.9,
+    "source_pressure_g_bar": 20.0,
+    "contract_pressure_g_bar": 20.0,
+    "rated_pressure_g_bar": 70.0,
+    "location_class": "Class1",
+    "annual_capital_charge": 0.08,
+    "pipeline_fixed_om_fraction": 0.025,
+    "compressor_fixed_om_fraction": 0.061,
+    "storage_fixed_om_fraction": 0.02,
+    "electricity_2018_usd_per_kwh": 0.0804,
+    "escalation_2018_to_2023": 1.4467395561662646,
+    "q_grid_points": 241,
+    "design_flow_kg_per_day": 1522070.0152207,
+    "average_delivery_kg_per_day": 1369863.01369863,
+    "diameters_in": [
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      24.0,
+      30.0,
+      36.0,
+      42.0
+    ],
+    "lengths_km": [
+      400.0,
+      800.0,
+      1200.0,
+      1600.0,
+      2000.0
+    ],
+    "buffer_hours": [
+      0.0,
+      6.0,
+      12.0,
+      24.0,
+      36.0,
+      48.0,
+      72.0
+    ],
+    "storage_costs_2023_usd_per_kg": [
+      100.0,
+      200.0,
+      600.0
+    ],
+    "linepack_without_redesign_policy": "Freeze stages/ratings and preserve the 15% sizing margin"
+  },
+  "primary_dimensions": {
+    "service_points": 105,
+    "strategies": 3,
+    "selected_rows": 315
+  },
+  "infrastructure_response_counts_positive_duration": {
+    "100": {
+      "Transport assets retained": 18,
+      "Compressor resize": 12,
+      "Station-count change": 0,
+      "Diameter change": 0
+    },
+    "200": {
+      "Transport assets retained": 10,
+      "Compressor resize": 7,
+      "Station-count change": 4,
+      "Diameter change": 9
+    },
+    "600": {
+      "Transport assets retained": 4,
+      "Compressor resize": 5,
+      "Station-count change": 3,
+      "Diameter change": 18
+    }
+  },
+  "focal_case": {
+    "length_km": 1200.0,
+    "buffer_hours": 72.0,
+    "storage_cost_2023_usd_per_kg": 600.0,
+    "required_buffer_t": 4109.58904109589,
+    "external_storage_only_lcot_2023_usd_per_kg": 0.8324838025516844,
+    "linepack_without_redesign_lcot_2023_usd_per_kg": 0.7695886979787577,
+    "joint_design_lcot_2023_usd_per_kg": 0.4734335831003731,
+    "embedded_value_2023_usd_per_kg": 0.06289510457292669,
+    "redesign_value_2023_usd_per_kg": 0.29615511487838464,
+    "joint_saving_vs_external_storage_only_percent": 43.129994643832106,
+    "external_storage_only_design": [
+      30.0,
+      0
+    ],
+    "linepack_without_redesign_design": [
+      30.0,
+      0
+    ],
+    "joint_design": [
+      42.0,
+      4
+    ],
+    "linepack_without_redesign_linepack_t": 524.125871441055,
+    "joint_design_linepack_t": 4109.5890403727635,
+    "joint_design_external_storage_t": 7.231268100440502e-07,
+    "joint_design_q_bar_a": 21.278639881217984,
+    "near_optimal_designs": [
+      {
+        "diameter_in": 42.0,
+        "stations": 4,
+        "lcot_2023_usd_per_kg": 0.4734335831003731,
+        "gap_to_best_2023_usd_per_kg": 0.0
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 3,
+        "lcot_2023_usd_per_kg": 0.47349910914041593,
+        "gap_to_best_2023_usd_per_kg": 6.552604004284035e-05
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 5,
+        "lcot_2023_usd_per_kg": 0.47448276439005616,
+        "gap_to_best_2023_usd_per_kg": 0.0010491812896830655
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 6,
+        "lcot_2023_usd_per_kg": 0.4752632155308461,
+        "gap_to_best_2023_usd_per_kg": 0.001829632430473016
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 7,
+        "lcot_2023_usd_per_kg": 0.4758746177546404,
+        "gap_to_best_2023_usd_per_kg": 0.0024410346542673156
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 8,
+        "lcot_2023_usd_per_kg": 0.47637204707418396,
+        "gap_to_best_2023_usd_per_kg": 0.0029384639738108675
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 9,
+        "lcot_2023_usd_per_kg": 0.47678855159904615,
+        "gap_to_best_2023_usd_per_kg": 0.003354968498673061
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 2,
+        "lcot_2023_usd_per_kg": 0.47712381238620954,
+        "gap_to_best_2023_usd_per_kg": 0.003690229285836455
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 10,
+        "lcot_2023_usd_per_kg": 0.4771452373521589,
+        "gap_to_best_2023_usd_per_kg": 0.003711654251785823
+      },
+      {
+        "diameter_in": 42.0,
+        "stations": 11,
+        "lcot_2023_usd_per_kg": 0.4774562595457286,
+        "gap_to_best_2023_usd_per_kg": 0.004022676445355533
+      }
+    ]
+  },
+  "q_grid_audit": {
+    "tested_points": [
+      41,
+      81,
+      121,
+      241,
+      481
+    ],
+    "maximum_joint_design_lcot_spread_2023_usd_per_kg": 0.0,
+    "maximum_linepack_without_redesign_lcot_spread_2023_usd_per_kg": 0.0,
+    "selected_designs": [
+      [
+        42.0,
+        4
+      ],
+      [
+        42.0,
+        4
+      ],
+      [
+        42.0,
+        4
+      ],
+      [
+        42.0,
+        4
+      ],
+      [
+        42.0,
+        4
+      ]
+    ]
+  },
+  "throughput_robustness_summary": [
+    {
+      "annual_mt": 0.25,
+      "storage_cost": 200.0,
+      "retained": 6,
+      "compressor": 4,
+      "station": 11,
+      "diameter": 9,
+      "max_redesign": 0.010716920528563323
+    },
+    {
+      "annual_mt": 0.25,
+      "storage_cost": 600.0,
+      "retained": 1,
+      "compressor": 1,
+      "station": 6,
+      "diameter": 22,
+      "max_redesign": 0.3293770997704569
+    },
+    {
+      "annual_mt": 0.5,
+      "storage_cost": 200.0,
+      "retained": 10,
+      "compressor": 7,
+      "station": 4,
+      "diameter": 9,
+      "max_redesign": 0.04241383483825545
+    },
+    {
+      "annual_mt": 0.5,
+      "storage_cost": 600.0,
+      "retained": 4,
+      "compressor": 5,
+      "station": 3,
+      "diameter": 18,
+      "max_redesign": 0.36702359537236495
+    },
+    {
+      "annual_mt": 1.0,
+      "storage_cost": 200.0,
+      "retained": 16,
+      "compressor": 0,
+      "station": 4,
+      "diameter": 10,
+      "max_redesign": 0.015479935139863288
+    },
+    {
+      "annual_mt": 1.0,
+      "storage_cost": 600.0,
+      "retained": 5,
+      "compressor": 0,
+      "station": 13,
+      "diameter": 12,
+      "max_redesign": 0.1736642245488801
+    }
+  ],
+  "literature_audit": {
+    "gpa_4h_increment_from_source_tables_aud_per_kg": 0.17,
+    "gpa_4h_increment_from_tariff_aud_per_kg": 0.15290766666666666,
+    "invalid_survey_increment_aud_per_kg": 0.92,
+    "uc_davis_cost_used_as_lcot": false
+  },
+  "source_hashes": {
+    "src/pipeline_model/__init__.py": "f18fec747b48d61a390f89f74697b7644d34ff62612ad27cdc15cad3b6a60e2f",
+    "src/pipeline_model/compressor.py": "1360150ab112dd6fe9429bbc0de698f8e42632cee93f0636e2e1ffe35ade37bf",
+    "src/pipeline_model/design.py": "2b0e88797af2a1cf29d0e265068be52d53fef2514e6ff054de8c5ddb4297d703",
+    "src/pipeline_model/economics.py": "67299b05ac2dbfbcfe2bd6a9eafea3b5d56e7a5c9c990474d7df6a0de78c06fd",
+    "src/pipeline_model/hydraulics.py": "81177cad5db4f33172725a040653c3c6fe79038130ff0b522ec24abe2535fe42",
+    "src/pipeline_model/linepack.py": "3e59c292140a0605699013a4691ab0cb9428d63af3f3ceb7629fe9869060d095",
+    "src/pipeline_model/parameters.py": "0d20a3c3eb5fea786b25f6469169b971b71d35a693d03a54460deaa674b00eeb",
+    "src/pipeline_model/pipeline_costs.py": "bc1d98c65db5c369c8e9012cbee557db9d9980d2ec16fe1655c46cb494870622",
+    "src/pipeline_model/provenance.py": "e875db4b35db914885618b8cdff7bc725d8a901980917980e4fc670347c28d72",
+    "src/pipeline_model/validation.py": "f1720607a594a7e5ecf407420505936e3730b1cbb5229455454774210abd9931"
+  }
+}

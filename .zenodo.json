@@ -1,0 +1,25 @@
+{
+  "title": "PiTEA: Physics-Informed Techno-Economic Analysis of Hydrogen Pipeline Transmission and Buffer Provision",
+  "description": "Code, data, and reference results for the computational analyses reported in the associated article.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Chen, Pengfei",
+      "affiliation": "Georgia Institute of Technology"
+    },
+    {
+      "name": "Thomas, Valerie M.",
+      "affiliation": "Georgia Institute of Technology"
+    }
+  ],
+  "keywords": [
+    "hydrogen pipeline",
+    "techno-economic analysis",
+    "linepack",
+    "compression",
+    "external storage",
+    "reproducibility"
+  ],
+  "version": "1.0.0"
+}

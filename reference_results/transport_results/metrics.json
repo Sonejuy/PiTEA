@@ -1,0 +1,118 @@
+{
+  "metric": "LCOT=(0.08/yr annual capital charge factor * pre-contingency CAPEX + annual OPEX)/actual annual delivered mass",
+  "reporting_convention": {
+    "cost_year": 2023,
+    "capacity_factor": 0.9,
+    "annual_capital_charge_factor_per_year": 0.08,
+    "explicit_discount_rate": null,
+    "explicit_operating_or_economic_life_years": null,
+    "lcot_unit": "2023 USD/kg",
+    "pipeline_om_fraction": 0.025,
+    "pitea_compressibility": "pressure-dependent Z",
+    "pitea_electricity": "PiTEA electricity tariff",
+    "gathering": "bypassed",
+    "h2p_contingency_adjustment": "15% project contingency removed to match the PiTEA pre-contingency capital boundary"
+  },
+  "source_validation": {
+    "h2p_reconstruction_matches_exhibit44_case_count": 48,
+    "published_bep_is_not_directly_converted": true,
+    "published_bep_over_derived_lcot_ratio_min": 1.0544605000942804,
+    "published_bep_over_derived_lcot_ratio_max": 1.2420858158851773
+  },
+  "grid": {
+    "case_count": 48,
+    "common_feasible_case_count": 38,
+    "pitea_infeasible_case_count": 10,
+    "mean_absolute_relative_difference_pct": 4.750164138378167,
+    "within_10_pct_count": 34,
+    "within_15_pct_count": 38,
+    "nominal_diameter_match_count": 31,
+    "diameter_station_match_count": 23,
+    "pitea_lcot_vs_bep_design_switch_count": 4,
+    "h2p_lcot_vs_bep_design_switch_count": 1
+  },
+  "diameter_grid": {
+    "case_count": 30,
+    "pitea_h2p_nominal_diameter_match_count": 22,
+    "pitea_high_flow_endpoint_station_count": 25,
+    "hdsam_values_are_secondary_values_reported_by_h2p": true
+  },
+  "candidate_audit": {
+    "pitea_candidate_count": 10088,
+    "pitea_feasible_candidate_count": 2751,
+    "h2p_candidate_count": 576,
+    "h2p_source_evaluated_candidate_count": 296,
+    "h2p_full_catalog_gives_same_lcot_selections": true,
+    "pitea_model_recomputation": {
+      "case_count": 48,
+      "candidate_count": 10088,
+      "feasible_candidate_count": 2751,
+      "fields_recomputed": [
+        "physical feasibility",
+        "pipeline CAPEX",
+        "compressor CAPEX",
+        "pipeline fixed O&M",
+        "compressor fixed charges",
+        "electricity",
+        "annual total OPEX"
+      ],
+      "maximum_scaled_residual": 1.164384353533469e-15,
+      "status": "pass"
+    }
+  },
+  "representative_cases": {
+    "BEP_Q025_L0010": {
+      "PiTEA": {
+        "diameter_in": 12.0,
+        "station_count_enroute": 0,
+        "lcot_2023_usd_per_kg": 0.004650185049805208,
+        "capex_precontingency_2023_usd": 11071869.166202873,
+        "annual_opex_2023_usd": 276796.729155072
+      },
+      "H2P-derived": {
+        "diameter_in": 12.0,
+        "station_count_enroute": 0,
+        "lcot_2023_usd_per_kg": 0.004764100030165913,
+        "capex_precontingency_2023_usd": 11268267.319865819,
+        "annual_opex_2023_usd": 289563.62195221265
+      }
+    },
+    "BEP_Q100_L1000": {
+      "PiTEA": {
+        "diameter_in": 42.0,
+        "station_count_enroute": 1,
+        "lcot_2023_usd_per_kg": 0.25723100121571046,
+        "capex_precontingency_2023_usd": 2349222892.505985,
+        "annual_opex_2023_usd": 69293169.81523168
+      },
+      "H2P-derived": {
+        "diameter_in": 42.0,
+        "station_count_enroute": 1,
+        "lcot_2023_usd_per_kg": 0.2706010659016719,
+        "capex_precontingency_2023_usd": 2387065093.8170667,
+        "annual_opex_2023_usd": 79635858.39630657
+      }
+    }
+  },
+  "fixed_design_attribution": {
+    "case_count": 23,
+    "mean_h2p_minus_pitea_lcot_2023_usd_per_kg": 0.0052324294863683235,
+    "grouped_contributions_2023_usd_per_kg": {
+      "Electricity": 0.003371096422353867,
+      "Compressor CAPEX": 0.001277095515381583,
+      "Compressor O&M": 0.0005319920997831913,
+      "Other": 5.224544884968203e-05
+    }
+  },
+  "cost_year_factors": {
+    "2011_to_2023": 1.7552354909370123,
+    "pitea_2018_to_2011": 0.8242424242424242,
+    "pitea_2018_to_2023": 1.4467395561662646
+  },
+  "source_hashes": {
+    "data/transport_validation/pitea_candidates.csv": "13e59f56aab620196b0ee230cc3fd41e417c11c2f8351593edc821d68be23096",
+    "data/transport_validation/h2p_reconstructed_candidates.csv": "5e09f5f626c1272f228a9e9be924688ee5c3d4189ec360103365d897e40cbe36",
+    "data/transport_validation/h2p_bep_targets.csv": "e088cc665da8cb775605aa31bcf3ddacfeb9566fd92e09be55588926ce7725d8",
+    "data/transport_validation/exhibit45_published_diameters.csv": "bc920af65ed9596cac0d682493f7567ce6134a282dd122be747f3ab675d1c237"
+  }
+}

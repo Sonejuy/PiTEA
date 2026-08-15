@@ -1,0 +1,3 @@
+policy,diameter_in,stations,q_bar_a,credited_linepack_kg,external_storage_kg,lcot_2023_usd_per_kg
+Preserve 15% sizing margin,30.0,0,21.01325,524125.87144105503,3585463.169654835,0.7695886979787577
+Permit use of installed nameplate reserve,30.0,0,21.01325,524125.87144105503,3585463.169654835,0.7695886979787577
